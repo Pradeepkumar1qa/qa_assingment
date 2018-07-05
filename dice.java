@@ -38,7 +38,9 @@ class Dice{
 		  
 		  System.out.println(d.roll_dice()); 
 		  System.out.println("----------------------------------------------------------------");
+		   System.out.println("----------------------------------------------------------------");
 		  System.out.println("press 1 to do more rolling of dice or any other number to exit");
+		   
 		  option=sc.nextInt();
 		}while(option==1);
 		}else{
